@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pl">
+    <head>
+        <title>Wiersz - Cebula</title>
+        <meta name="author" content="Jakub M.">
+        <meta name="copyright" content="(c) 2020 Jakub M.">
+        <meta charset="utf-8">
+        <style>
+            #txt{
+                font-size: 50px;
+            }
+            #box{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%, -50%);
+            }
+            img{
+                animation: shake 0.2s linear infinite;
+            }
+            @keyframes shake {
+                0% { transform: translate(1px, 5px) rotate(0deg); }
+                10% { transform: translate(-1px, -2px) rotate(-1deg); }
+                20% { transform: translate(-10px, 0px) rotate(1deg); }
+                30% { transform: translate(37px, 21px) rotate(0deg); }
+                40% { transform: translate(45px, -21px) rotate(1deg); }
+                50% { transform: translate(-70px, 43px) rotate(-1deg); }
+                60% { transform: translate(-43px, 34px) rotate(0deg); }
+                70% { transform: translate(52px, 1px) rotate(-1deg); }
+                80% { transform: translate(-46px, -1px) rotate(1deg); }
+                90% { transform: translate(85px, 86px) rotate(0deg); }
+                100% { transform: translate(1px, -23px) rotate(-1deg); }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="box">
+        <a id="txt"><center>CEBULA MA WARSTWY!!!</center></a><br>
+        <img src="https://niniwa.pl/wp-content/uploads/2020/06/ogry_warstwy_4_sfery_czlowieka_umysl_cialo_duch_psychika_826.jpg.webp" width="1000">
+        </div>
+    </body>
+</html>
